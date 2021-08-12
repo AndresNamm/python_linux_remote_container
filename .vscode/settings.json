@@ -1,0 +1,17 @@
+{
+    "python.languageServer": "Pylance",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.linting.pylintEnabled": true,
+    "python.formatting.yapfArgs": [
+      "--style={based_on_style: google, indent_width: 4}"],
+    "python.formatting.provider": "yapf",
+    "python.pythonPath": "/workspace/.venv/bin/python",
+		"python.linting.enabled": true,
+    "python.analysis.autoSearchPaths": true,
+    "python.analysis.autoImportCompletions": true, 
+    "python.autoComplete.extraPaths": [
+      "/workspace/","/workspace/.venv/lib/python3.8/site-packages/","/workspace/.venv/lib/python3.8/site-packages"
+    ],
+    "python.venvPath": "/workspace/.venv",  
+    "python.analysis.extraPaths": ["/workspace/.venv/lib/python3.8/site-packages/"]
+  }
