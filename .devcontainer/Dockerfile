@@ -23,3 +23,12 @@ RUN if [ "${INSTALL_NODE}" = "true" ]; then su vscode -c "umask 0002 && . /usr/l
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 #     && apt-get -y install --no-install-recommends <your-package-list-here>
 
+
+
+
+## [Optional] PYOBDC BINARY DRIVER 
+## YOU ALSO NEED TO ADD pyodbc to requirements_dev.in
+#COPY .extra/get_pyobdc.sh /tmp/install_obdc/ 
+#RUN bash /tmp/install_obdc/get_pyobdc.sh
+
+
