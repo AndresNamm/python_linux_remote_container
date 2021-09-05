@@ -1,0 +1,6 @@
+# ONLY IN DEV
+pylint
+jupyter
+yapf
+# FOR RUNNING THE CODE
+pandas
