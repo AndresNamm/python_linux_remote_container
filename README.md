@@ -1,6 +1,3 @@
-
-# python_linux_dev
-
 + This folder contains python linux development container setup
 + It uses pip_install to manage python dependencies
 + I uses pylance as language server
