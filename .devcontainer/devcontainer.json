@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.187.0/containers/python-3
 {
-	"name": "Cost Python 3",
+	"name": "ChillJaGrill",
 	"dockerComposeFile": "docker-compose.yml",
 	"workspaceFolder": "/workspace/",
 	"service": "default-app-name",
@@ -20,7 +20,7 @@
 		"ms-python.python",
 		"ms-python.vscode-pylance"
 	],
-	"postCreateCommand": "./py_installer.sh",
+	"postCreateCommand": "bash ./py_installer.sh",
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 

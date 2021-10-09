@@ -4,3 +4,4 @@ jupyter
 yapf
 # FOR RUNNING THE CODE
 pandas
+boto3
